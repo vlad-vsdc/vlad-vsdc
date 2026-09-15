@@ -1,6 +1,6 @@
 # Hi, I'm Vladimir 👋
 
-AI Developer · Vibe Coder · Fullstack Builder
+AI Integration Engineer & Fullstack Architect · Building production systems solo — from infra to LLM pipelines
 
 I build web products, AI automations, and small tools that solve real tasks fast.
 My focus right now is AI-assisted development, agents, automations, and product-driven web work.
