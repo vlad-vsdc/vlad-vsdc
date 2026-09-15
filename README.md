@@ -1,59 +1,48 @@
 # Hi, I'm Vladimir 👋
 
-AI Integration Engineer & Fullstack Architect · Building production systems solo — from infra to LLM pipelines
+**AI Integration Engineer · Fullstack Architect**
 
-I build web products, AI automations, and small tools that solve real tasks fast.
-My focus right now is AI-assisted development, agents, automations, and product-driven web work.
+I design and build production systems solo — from server infrastructure to LLM-powered
+pipelines. My focus is on how AI integrates into real architecture: RAG systems, tool-use
+agents, streaming responses, and the infrastructure decisions around them (auth, data
+consistency, CI/CD, self-hosted deployment).
 
-# What I do
+## What I do
 
-- Build web apps and internal tools
-- Use AI daily for coding, prototyping, debugging, and research
-- Create automations with n8n and API integrations
-- Work on AI products, bots, and workflow-based systems
-- Turn rough ideas into working solutions
+- Design and build fullstack products end-to-end — architecture, backend, frontend, infra
+- Integrate LLMs (Claude, OpenAI) into real products: RAG pipelines, function-calling agents,
+  streaming responses, prompt engineering under production constraints
+- Run and maintain self-hosted infrastructure (Docker, CI/CD, monitoring) on my own hardware
+- Make architectural trade-off calls and document them — not just ship features
 
-# Tech Stack
+## Tech Stack
 
-**Languages:** JavaScript, TypeScript, Python
-**Frontend:** React, Next.js, HTML, CSS, Bootstrap
-**Backend:** Node.js, Express, Django, API integrations
-**AI / Automation:** Claude, GPT, Hugging Face, Groq, n8n, Cursor
-**Database:** PostgreSQL, MongoDB, Redis
-**Tools:** Git, Linux, Docker, VS Code, REST API
+**Languages:** TypeScript, JavaScript, Python
+**Frontend:** React, React Native, Next.js
+**Backend:** Node.js, Fastify, Express
+**AI / LLM:** Claude API, OpenAI API, RAG pipelines, function calling / tool use, prompt engineering
+**Data:** PostgreSQL, MongoDB, Redis
+**Infra:** Docker, Docker Compose, GitHub Actions, self-hosted CI/CD runners, Cloudflare Tunnel
 
-# Featured Projects
+## Featured Projects
 
-## [Luminara AI](https://github.com/vlad-vsdc/luminara-ai)
-Transparent RAG knowledge-base platform for teams that need answers grounded in their own documents — not just answers, but answers you can verify.
+### [AI Reviewer](https://github.com/vlad-vsdc/ai-reviewer)
+AI-powered code review tool — React, TypeScript, Claude API with SSE streaming.
+Live: https://ai-reviewer-seven.vercel.app
 
-## [Ask Agent](https://github.com/vlad-vsdc/ask-agent)
-Production-quality React + TypeScript + Vite single-page app demonstrating an AI assistant with real tool use, transparent function-call execution, and live session analytics.
+### [Ask Agent](https://github.com/vlad-vsdc/ask-agent)
+Production-quality demo of an AI assistant with real tool use — transparent function-call
+execution and live session analytics.
 
-## [AI Content Brief Generator](https://github.com/vlad-vsdc/ai-content-brief)
-Modern AI-powered web application that generates structured SEO content briefs with real-time streaming responses. Built as a provider-agnostic AI workspace.
+### [Luminara AI](https://github.com/vlad-vsdc/luminara-ai)
+Transparent RAG knowledge-base platform: chunking, embeddings, Qdrant vector search, and a
+retrieval-trace UI that shows exactly what the model saw before answering.
 
-## [AI Reviewer](https://github.com/vlad-vsdc/ai-reviewer)
-AI-powered code review tool built with React, TypeScript, and Claude API — real-time, severity-based feedback for developers.
+### [Vectorloom Studio](https://github.com/vlad-vsdc/vectorloom-studio)
+A rendering-engineering prototype bridging PixiJS containers into Skia CanvasKit, with vector
+PDF export — outside the AI-wrapper space, focused on graphics/rendering architecture.
 
-## [Applikraft](https://github.com/vlad-vsdc/applikraft)
-Job Application Tracker — fullstack app with auth, file uploads, filters, and multilingual UI. Turns job search chaos into a structured, trackable workflow.
-
-## [TalkForge](https://github.com/VladSky911/talkforge)
-AI Language Tutor — a project for language practice with AI-powered feedback and interaction.
-
-## [Neural Notes](https://github.com/vlad-vsdc/neural-notes)
-AI-first mobile note-taking app built with React Native (Expo). Turns raw text into summaries, structured insights, tags, and rewritten content.
-
-# What I'm into now
-
-- AI-assisted development
-- AI agents and automations
-- vibe coding for web products
-- building useful tools quickly
-- product work with a practical result
-
-# Contact
+## Contact
 
 - Email: vladimiryelisyeyev@gmail.com
 - Telegram: @vlad_vsdc
