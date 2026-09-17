@@ -26,9 +26,10 @@ consistency, CI/CD, self-hosted deployment).
 
 ## Featured Projects
 
-### [AI Reviewer](https://github.com/vlad-vsdc/ai-reviewer)
-AI-powered code review tool — React, TypeScript, Claude API with SSE streaming.
-Live: https://ai-reviewer-seven.vercel.app
+### [AI Review Bot](https://github.com/vlad-vsdc/ai-review-bot)
+GitHub App that reviews real pull requests — webhook → BullMQ queue → Claude
+(Groq fallback) → inline diff comments via the GitHub Review API. Live proof
+and real /stats output in the repo.
 
 ### [Ask Agent](https://github.com/vlad-vsdc/ask-agent)
 Production-quality demo of an AI assistant with real tool use — transparent function-call
