@@ -31,6 +31,13 @@ GitHub App that reviews real pull requests — webhook → BullMQ queue → Clau
 (Groq fallback) → inline diff comments via the GitHub Review API. Live proof
 and real /stats output in the repo.
 
+### [Waybill](https://github.com/vlad-vsdc/waybill)
+RAG assistant for EU road-freight documentation (EN/DE/RU) — retrieval-grounded
+answers with deterministic citations, guardrails against hallucination, and an
+honest "not covered" instead of an improvised guess. Zero-cost provider chain,
+self-hosted multilingual embeddings, measured (not assumed) architecture
+decisions documented as ADRs. Live: waybill.haully.pro
+
 ### [Ask Agent](https://github.com/vlad-vsdc/ask-agent)
 Production-quality demo of an AI assistant with real tool use — transparent function-call
 execution and live session analytics.
